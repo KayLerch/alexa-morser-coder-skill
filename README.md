@@ -1,40 +1,28 @@
 This skill makes you an expert for Morse codes. You can explore three different features.
 
-<<<<<<< HEAD
 The making-of story of this skill can be found here:
 https://www.linkedin.com/pulse/amazon-alexa-skill-development-creation-morse-coder-kay-lerch
 
 #Encode names to Morse code
-=======
-#1) Encode names to Morse code
->>>>>>> origin/master
 If you are interested in Morse codes expressing common US first names, go for something like:
 
-"Alexa, ask Morse Coder to encode <FirstName>"
+> "Alexa, ask Morse Coder to encode {Name}"
 
-where <FirstName> is any common first name of your choice.
+where {Name} is any common first name of your choice.
 
 With this intent Alexa plays back the corresponding Morse code. Moreover, this skill provides the Morse code to your Alexa App.
 Due to technical limitations by Amazon on audio tags this feature is only supported for names shorter than sixteen letters.
 
-<<<<<<< HEAD
 #Spell out names in Morse code
-=======
-#2) Spell out names in Morse code
->>>>>>> origin/master
 Similar to the encode feature of Morse Coder this feature lets Alexa spell out a common US first name of your choice in Morse code.
 The spell-out feature is designed for newcomers who want to learn Morse code letter by letter. Try out:
 
->"Alexa, spell out <FirstName>"
+>"Alexa, spell out {Name}"
 
-where <FirstName> is any common US first name of your choice. Once again Alexa even returns the Morse code to your Alexa App.
+where {Name} is any common US first name of your choice. Once again Alexa even returns the Morse code to your Alexa App.
 Due to technical limitations by Amazon on audio tags this feature is only supported for names shorter than six letters.
 
-<<<<<<< HEAD
 #Exercises / Learn Morse Code
-=======
-#3) Exercises / Learn Morse Code
->>>>>>> origin/master
 As soon as you got the basics on Morse codes you can test your comprehension. Start an exercise by saying:
 
 >"Alexa, start exercise"
@@ -57,11 +45,7 @@ The longer a word the more points you get out of an answer. Wrong answers on the
 
 If you are switching between the features your score persists and doesn't get lost.
 
-<<<<<<< HEAD
 #General features
-=======
-#4) General features
->>>>>>> origin/master
 "Repeat" during an exercise plays back a code again in a slower version. It also is an option to get back to your exercise if you switched to the spell-out or encode feature.
 "Next" or "Start over" at any time should guide you to the next random code. The current exercise will be skipped.
 "Stop" quits the skill and stops the exercise. You are provided with your final score.
