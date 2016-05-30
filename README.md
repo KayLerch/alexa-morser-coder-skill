@@ -40,7 +40,7 @@ and Alexa starts playing a Morse code and asks you to decode and pronounce the w
 If you are not sure Alexa tries to help you by slowing down the playback speed of the code as soon as you give a wrong answer or wait for several seconds without giving an answer.
 Another option to simplify things for you is to look in your Alexa App. There you can find the written Morse code along with a spelled version of it ("Di-dah-dit ...").
 
-![](docs/letter-cards-morsecoder.png)
+![](docs/cover.png)
 
 Actually the Alexa App is the best resource for you while exercising as you can learn a lot from the cards provided by the Morse Coder.
 Optionally you can skip or cancel an exercise by saying "Next" or "Cancel". If you need help free to ask for "Help" at any time. If you want to listen to a code again, just ask Alexa to "Repeat".
